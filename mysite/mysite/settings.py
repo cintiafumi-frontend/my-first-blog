@@ -26,7 +26,7 @@ SECRET_KEY = 'd#-n1#w6)cplc*gwm_czv)56$uf1x^2_$==83(bu0ctte46fyb'
 DEBUG = True
 
 #passo 03 alterando host
-ALLOWED_HOSTS = ['127.0.0.1', 'xintia.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'cintiafumi.pythonanywhere.com']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    blog,
 ]
 
 MIDDLEWARE = [
